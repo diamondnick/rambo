@@ -1,9 +1,10 @@
 module.exports = {
     exportTrailingSlash: true,
-    images: {
-        loader: 'akamai',
-        path: '/',
-      },
+    experimental: {
+        images: {
+            unoptimized: true
+        }
+    },
     exportPathMap: function(){
        return {
           '/': {page: '/'}
