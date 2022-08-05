@@ -2,7 +2,7 @@ module.exports = {
     exportTrailingSlash: true,
     images: {
         loader: 'akamai',
-        path: '',
+        path: '/',
       },
     exportPathMap: function(){
        return {
